@@ -44,7 +44,7 @@ export default function GaanaPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Overview</h2>
                             <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">
                                 <p className="text-gray-400 leading-relaxed">
-                                    Worked as Product Management Intern at Gaana, India's largest music streaming platform 
+                                    Worked as Product Management Intern at Gaana, India&apos;s largest music streaming platform 
                                     under Times Group. Focused on analyzing user journeys, optimizing performance metrics, 
                                     and improving user engagement across 5M+ daily active users.
                                 </p>

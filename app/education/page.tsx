@@ -66,7 +66,7 @@ export default function EducationPage() {
                                     <h2 className="text-2xl font-bold">Research & Thesis</h2>
                                 </div>
                                 <div className="bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition-colors">
-                                    <h3 className="text-xl font-semibold mb-3">Bachelor's Thesis</h3>
+                                    <h3 className="text-xl font-semibold mb-3">Bachelor&apos;s Thesis</h3>
                                     <p className="text-gray-400 leading-relaxed mb-4">
                                         Focused on advanced computer vision techniques for irregularity detection in biological samples.
                                         Explored the application of Generative Adversarial Networks (GANs) to augment training data
@@ -91,7 +91,7 @@ export default function EducationPage() {
                                     <div className="group">
                                         <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-purple-400 transition-colors">
                                             <a href="https://gymkhana.iitkgp.ac.in/" target="_blank" rel="noopener noreferrer">
-                                                General Secretary, Technology Students' Gymkhana
+                                                General Secretary, Technology Students&apos; Gymkhana
                                             </a>
                                         </h3>
                                         <p className="text-gray-400 mb-2">Elected Student Representative</p>
@@ -110,7 +110,7 @@ export default function EducationPage() {
                                                 Executive Head, Kshitij
                                             </a>
                                         </h3>
-                                        <p className="text-gray-400 mb-2">Asia's Largest Techno-Management Fest</p>
+                                        <p className="text-gray-400 mb-2">Asia&apos;s Largest Techno-Management Fest</p>
                                         <ul className="list-disc list-outside ml-4 text-gray-400 space-y-2">
                                             <li>Orchestrated the planning and execution of a fest with <strong>60k+ footfall</strong> and participation from 2500+ colleges.</li>
                                             <li>Secured corporate sponsorships and partnerships with industry giants to fund events and prizes.</li>

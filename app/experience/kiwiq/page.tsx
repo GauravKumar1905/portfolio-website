@@ -30,7 +30,7 @@ export default function KiwiQPage() {
                             <Briefcase size={32} />
                         </div>
                         <div className="flex-1">
-                            <h1 className="text-4xl md:text-5xl font-bold mb-2">Founder's Office (AI Product & Platform)</h1>
+                            <h1 className="text-4xl md:text-5xl font-bold mb-2">Founder&apos;s Office (AI Product & Platform)</h1>
                             <p className="text-xl text-gray-300 font-medium mb-2">KiwiQ AI</p>
                             <div className="flex items-center gap-2 text-gray-400">
                                 <Calendar size={16} />
