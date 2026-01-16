@@ -29,11 +29,11 @@ export default function EducationPage() {
                         <div>
                             <h1 className="text-4xl md:text-5xl font-bold mb-4">Indian Institute of Technology, Kharagpur</h1>
                             <p className="text-xl text-gray-400">Bachelor of Technology (B.Tech)</p>
-                            <p className="text-gray-500 mt-2">2019 – 2023</p>
+                            <p className="text-gray-500 mt-2">Jul 2019 – Apr 2023</p>
                         </div>
                         <div className="bg-zinc-900 border border-zinc-800 px-6 py-4 rounded-lg">
                             <span className="text-gray-400 text-sm block mb-1">Cumulative GPA</span>
-                            <span className="text-3xl font-bold text-white">7.89<span className="text-lg text-gray-500">/10</span></span>
+                            <span className="text-3xl font-bold text-white">7.89<span className="text-lg text-gray-500">/10.0</span></span>
                         </div>
                     </div>
 
@@ -96,9 +96,8 @@ export default function EducationPage() {
                                         </h3>
                                         <p className="text-gray-400 mb-2">Elected Student Representative</p>
                                         <ul className="list-disc list-outside ml-4 text-gray-400 space-y-2">
-                                            <li>Managed a budget of <strong>INR 1.91 Crores</strong> for technological activities and student welfare.</li>
-                                            <li>Led a team of student representatives to organize events, competitions, and workshops fostering technical excellence.</li>
-                                            <li>Spearheaded initiatives to improve campus technical infrastructure and student innovation facilities.</li>
+                                            <li>Led institute-wide technology initiatives, coordinated 6 societies and championship events</li>
+                                            <li>Managed a budget of <strong>INR 19.1M</strong> for technological activities and student welfare</li>
                                         </ul>
                                     </div>
 
@@ -110,11 +109,10 @@ export default function EducationPage() {
                                                 Executive Head, Kshitij
                                             </a>
                                         </h3>
-                                        <p className="text-gray-400 mb-2">Asia&apos;s Largest Techno-Management Fest</p>
+                                        <p className="text-gray-400 mb-2">Asia&apos;s Largest Techno Management Fest</p>
                                         <ul className="list-disc list-outside ml-4 text-gray-400 space-y-2">
-                                            <li>Orchestrated the planning and execution of a fest with <strong>60k+ footfall</strong> and participation from 2500+ colleges.</li>
-                                            <li>Secured corporate sponsorships and partnerships with industry giants to fund events and prizes.</li>
-                                            <li>Managed cross-functional teams across PR, logistics, events, and tech support.</li>
+                                            <li>Headed a 70+ member team, executed 50 technology events</li>
+                                            <li>Managed a fest budget of <strong>INR 11.2M</strong></li>
                                         </ul>
                                     </div>
 
@@ -128,9 +126,8 @@ export default function EducationPage() {
                                         </h3>
                                         <p className="text-gray-400 mb-2">Pan-IIT Technical Competition</p>
                                         <ul className="list-disc list-outside ml-4 text-gray-400 space-y-2">
-                                            <li>Led the IIT Kharagpur contingent in the prestigious annual technical meet involving all 23 IITs.</li>
-                                            <li>Strategized participation in high-stakes problem statements ranging from robotics to AI/ML.</li>
-                                            <li>Coordinated with faculty mentors and industry experts to guide student teams.</li>
+                                            <li>Initiated and hosted the Inter-IIT Tech Meet at IIT Kharagpur</li>
+                                            <li>Organized 16+ events with participation from 22 IITs</li>
                                         </ul>
                                     </div>
                                 </div>

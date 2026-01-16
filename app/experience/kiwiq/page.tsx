@@ -44,9 +44,9 @@ export default function KiwiQPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Overview</h2>
                             <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">
                                 <p className="text-gray-400 leading-relaxed">
-                                    Leading product design of LLM-powered content intelligence platform at KiwiQ AI. 
-                                    Defining static, graph-based, and agentic workflows with RAG and human-in-the-loop controls. 
-                                    Working directly with the founding team to shape the product vision and architecture.
+                                    Leading product design and execution of an LLM-powered content intelligence platform at KiwiQ AI.
+                                    Designing step-based workflows with HITL checkpoints and multi-agent workflows where LLMs decompose tasks.
+                                    Collaborating directly with engineering on backend-driven UI architecture and API infrastructure.
                                 </p>
                             </div>
                         </section>
@@ -55,10 +55,12 @@ export default function KiwiQPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Key Achievements & Impact</h2>
                             <div className="space-y-4">
                                 {[
-                                    'Led product design of LLM-powered content intelligence platform, reducing time-to-publish by 75%',
-                                    'Defined static, graph-based, and agentic workflows with RAG and human-in-the-loop controls',
-                                    'Owned node-based workflow logic and API requirements with backend engineers',
-                                    'Translated 350+ user feedback points into PRDs and shipped 4 core user journeys',
+                                    'Led product design and execution of an LLM-powered content intelligence platform, delivering 6 core user journeys',
+                                    'Reduced content time-to-publish by 75% through continuous workflow optimization informed by 350+ user feedback points',
+                                    'Designed step-based workflows with HITL checkpoints and multi-agent workflows where LLMs decompose tasks',
+                                    'Defined technical requirements for 359 API endpoints and WebSocket infrastructure, enabling multi-threaded conversations',
+                                    'Collaborated with frontend engineers on backend-driven UI architecture, rendering AI outputs across 12+ content patterns',
+                                    'Designed a strategic division of labor between agents and modular agent skills, leveraging task decomposition frameworks and prompt engineering best practices for improved reliability and consistency',
                                 ].map((achievement, i) => (
                                     <motion.div
                                         key={i}
@@ -78,7 +80,7 @@ export default function KiwiQPage() {
                         <section>
                             <h2 className="text-2xl font-bold mb-6 text-white">Technologies & Skills</h2>
                             <div className="flex flex-wrap gap-3">
-                                {['LLM', 'RAG', 'Agentic Systems', 'Product Design', 'Workflow Architecture', 'API Design', 'PRD Writing'].map((tag, i) => (
+                                {['LLM', 'Multi-Agent Orchestration', 'RAG Pipelines', 'HITL Workflows', 'Product Design', 'API Architecture', 'WebSocket', 'Backend-Driven UI', 'Prompt Engineering', 'Task Decomposition', 'PRD Writing'].map((tag, i) => (
                                     <span
                                         key={i}
                                         className="px-4 py-2 bg-zinc-800 border border-zinc-700 text-gray-300 rounded-lg hover:border-purple-500/50 transition-colors"

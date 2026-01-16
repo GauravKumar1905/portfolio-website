@@ -10,15 +10,15 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Gaurav Kumar - AI Product Manager",
-  description: "AI Product Manager specializing in LLM-powered platforms, agentic systems, and scalable AI workflows. IIT Kharagpur graduate with experience at KiwiQ AI, Pixel Ads, and more.",
-  keywords: ["AI Product Manager", "LLM Systems", "Agentic AI", "RAG Pipelines", "Product Management"],
+  description: "AI Product Manager with hands-on experience building and scaling LLM-powered platforms from 0→1. Skilled in designing agentic workflows, multi-agent orchestration, and human-in-the-loop systems. IIT Kharagpur graduate.",
+  keywords: ["AI Product Manager", "LLM Systems", "Agentic AI", "Multi-Agent Orchestration", "RAG Pipelines", "Product Management", "Prompt Engineering"],
   authors: [{ name: "Gaurav Kumar" }],
   icons: {
     icon: '/favicon.ico',
   },
   openGraph: {
     title: "Gaurav Kumar - AI Product Manager",
-    description: "Building AI Products That Scale Intelligence into Real-World Impact",
+    description: "Building and scaling LLM-powered platforms from 0→1. Proven ability to translate complex AI capabilities into scalable product experiences.",
     type: "website",
   },
 };

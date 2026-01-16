@@ -44,9 +44,9 @@ export default function NationWithNamoPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Overview</h2>
                             <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">
                                 <p className="text-gray-400 leading-relaxed">
-                                    Served as Associate Consultant for strategic political campaigns, focusing on ground-level 
-                                    operations, data-driven strategy development, and real-time issue resolution. Contributed 
-                                    to successful electoral outcomes through systematic planning and execution.
+                                    Served as Associate Consultant for strategic political campaigns, conducting ground-level
+                                    assessments, implementing large-scale action plans, and resolving real-time operational issues.
+                                    Contributed to successful electoral outcomes through systematic planning and execution.
                                 </p>
                             </div>
                         </section>
@@ -55,10 +55,9 @@ export default function NationWithNamoPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Key Achievements & Impact</h2>
                             <div className="space-y-4">
                                 {[
-                                    'Conducted ground visits contributing to winning strategy securing 4 of 5 seats',
-                                    'Implemented action plans impacting 12+ lakh people',
-                                    'Resolved issues at 250+ booths through real-time tracking',
-                                    'Analyzed voter sentiment data to optimize campaign messaging and resource allocation',
+                                    'Conducted 4 ground visits to assess public sentiment, contributing to winning election strategy securing 4 of 5 seats',
+                                    'Implemented action plans impacting 12+ lakh people, driving swing from trailing to leading in contested constituency',
+                                    'Resolved machine malfunctions at 250+ key booths through real-time issue tracking and cross-team coordination',
                                 ].map((achievement, i) => (
                                     <motion.div
                                         key={i}
@@ -78,7 +77,7 @@ export default function NationWithNamoPage() {
                         <section>
                             <h2 className="text-2xl font-bold mb-6 text-white">Technologies & Skills</h2>
                             <div className="flex flex-wrap gap-3">
-                                {['Strategy', 'Operations', 'Data Analysis', 'Campaign Management', 'Real-time Tracking', 'Stakeholder Management'].map((tag, i) => (
+                                {['Strategy Development', 'Operations Management', 'Ground Research', 'Campaign Execution', 'Real-time Coordination', 'Cross-Team Collaboration', 'Issue Resolution'].map((tag, i) => (
                                     <span
                                         key={i}
                                         className="px-4 py-2 bg-zinc-800 border border-zinc-700 text-gray-300 rounded-lg hover:border-purple-500/50 transition-colors"

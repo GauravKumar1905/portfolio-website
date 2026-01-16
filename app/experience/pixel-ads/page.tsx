@@ -2,11 +2,65 @@
 
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, Briefcase, Calendar } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
+import { useState, useEffect } from 'react';
+
+const ImageCarousel = ({ images }: { images: string[] }) => {
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setCurrentIndex((prev) => (prev + 1) % images.length);
+        }, 3000);
+        return () => clearInterval(timer);
+    }, [images.length]);
+
+    return (
+        <div className="relative w-full h-full min-h-[300px] overflow-hidden rounded-lg bg-zinc-800">
+            <AnimatePresence mode="wait">
+                <motion.div
+                    key={currentIndex}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.5 }}
+                    className="absolute inset-0"
+                >
+                    <Image
+                        src={images[currentIndex]}
+                        alt={`Project screenshot ${currentIndex + 1}`}
+                        fill
+                        className="object-contain"
+                    />
+                </motion.div>
+            </AnimatePresence>
+
+            {/* Indicators */}
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+                {images.map((_, idx) => (
+                    <button
+                        key={idx}
+                        onClick={() => setCurrentIndex(idx)}
+                        className={`h-2 rounded-full transition-all duration-300 ${idx === currentIndex ? 'w-8 bg-white' : 'w-2 bg-white/50'
+                            }`}
+                        aria-label={`Go to image ${idx + 1}`}
+                    />
+                ))}
+            </div>
+        </div>
+    );
+};
 
 export default function PixelAdsPage() {
+    const images = [
+        '/images/experience/pixel-ads/pixel-1.png',
+        '/images/experience/pixel-ads/pixel-2.png',
+        '/images/experience/pixel-ads/pixel-3.png',
+        '/images/experience/pixel-ads/pixel-4.png',
+    ];
     return (
         <main className="min-h-screen bg-black text-white">
             <Navigation />
@@ -41,12 +95,19 @@ export default function PixelAdsPage() {
 
                     <div className="space-y-12">
                         <section>
+                            <h2 className="text-2xl font-bold mb-6 text-white">Project Showcase</h2>
+                            <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">
+                                <ImageCarousel images={images} />
+                            </div>
+                        </section>
+
+                        <section>
                             <h2 className="text-2xl font-bold mb-6 text-white">Overview</h2>
                             <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">
                                 <p className="text-gray-400 leading-relaxed">
-                                    Founded and led Pixel Ads, an AI-driven outdoor advertising platform focused on hyper-personalized 
-                                    advertising for taxi-top displays. Defined the complete product architecture, designed IoT prototypes, 
-                                    and conducted extensive market research to validate the business model.
+                                    Founded and led Pixel Ads, an AI-driven outdoor advertising platform focused on hyper-personalized
+                                    advertising for taxi-top displays. Identified critical product gaps and led cross-functional architecture
+                                    decisions while designing hardware prototypes and conducting extensive market research.
                                 </p>
                             </div>
                         </section>
@@ -55,10 +116,10 @@ export default function PixelAdsPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Key Achievements & Impact</h2>
                             <div className="space-y-4">
                                 {[
-                                    'Defined backend and frontend architecture for hyper-personalized advertising platform',
-                                    'Designed microcontroller-based taxi-top display prototype, reducing costs by 30%',
-                                    'Conducted market research across 5 cities for GTM strategy with 20% CTC advantage',
-                                    'Built business model and pitch deck that secured interest from early-stage investors',
+                                    'Identified critical product gap in ad placement workflows, driving strategy toward automated customer-to-location mapping',
+                                    'Led cross-functional architecture decisions for hyper-personalized outdoor advertising, aligning engineering with product',
+                                    'Designed hardware prototype for targeted taxi-top advertising, reducing costs by 30% while improving ad precision',
+                                    'Conducted market research to identify pricing models and feature gaps, shaping GTM strategy with 20% CTC advantage',
                                 ].map((achievement, i) => (
                                     <motion.div
                                         key={i}
@@ -78,7 +139,7 @@ export default function PixelAdsPage() {
                         <section>
                             <h2 className="text-2xl font-bold mb-6 text-white">Technologies & Skills</h2>
                             <div className="flex flex-wrap gap-3">
-                                {['Product Architecture', 'IoT', 'Microcontrollers', 'Market Research', 'GTM Strategy', 'Business Development'].map((tag, i) => (
+                                {['Product Architecture', 'IoT', 'Hardware Design', 'Market Research', 'GTM Strategy', 'Cross-Functional Leadership', 'Business Development', 'Strategic Planning'].map((tag, i) => (
                                     <span
                                         key={i}
                                         className="px-4 py-2 bg-zinc-800 border border-zinc-700 text-gray-300 rounded-lg hover:border-purple-500/50 transition-colors"

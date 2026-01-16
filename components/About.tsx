@@ -20,13 +20,12 @@ export default function About() {
           </h2>
           <div className="max-w-3xl">
             <p className="text-lg text-gray-400 mb-6 leading-relaxed">
-              AI Product Manager with hands-on experience building and scaling LLM-powered platforms.
-              Strong background in designing agentic and workflow-based AI systems in collaboration with engineering teams.
+              AI Product Manager with hands-on experience building and scaling LLM-powered platforms from 0→1.
+              Skilled in designing agentic workflows, multi-agent orchestration, and human-in-the-loop systems in close collaboration with engineering.
             </p>
             <p className="text-lg text-gray-400 leading-relaxed">
-              Experienced in translating complex AI and backend capabilities into scalable product workflows,
-              dynamic frontends, and reliable user experiences. Deep exposure to prompt engineering, multi-agent systems,
-              RAG pipelines, and human-in-the-loop workflows.
+              Proven ability to translate complex AI capabilities into scalable product experiences, driving 75% reduction in time-to-publish and $10K MRR.
+              Deep expertise in prompt engineering, RAG pipelines, and backend-driven UI architecture.
             </p>
           </div>
         </motion.div>
@@ -47,7 +46,7 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition-colors">B.Tech, IIT Kharagpur</h3>
-              <p className="text-gray-400">2023 • CGPA: 7.89/10</p>
+              <p className="text-gray-400">Jul 2019 – Apr 2023 • CGPA: 7.89/10</p>
             </div>
             <div className="space-y-2">
               <p className="text-gray-400 text-sm mb-3">Leadership Highlights:</p>

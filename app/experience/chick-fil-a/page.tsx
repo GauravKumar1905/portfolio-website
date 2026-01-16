@@ -86,10 +86,10 @@ export default function ChickFilAPage() {
                         </div>
                         <div className="flex-1">
                             <h1 className="text-4xl md:text-5xl font-bold mb-2">Automation Project</h1>
-                            <p className="text-xl text-gray-300 font-medium mb-2">Chick-fil-A</p>
+                            <p className="text-xl text-gray-300 font-medium mb-2">Chick-fil-A (US-based QSR Chain)</p>
                             <div className="flex items-center gap-2 text-gray-400">
                                 <Calendar size={16} />
-                                <span>2024</span>
+                                <span>2025</span>
                             </div>
                         </div>
                     </div>
@@ -106,9 +106,9 @@ export default function ChickFilAPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Overview</h2>
                             <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">
                                 <p className="text-gray-400 leading-relaxed">
-                                    Designed and implemented an end-to-end automation workflow for Chick-fil-A outlet operations. 
-                                    The project dramatically reduced manual processing time while ensuring comprehensive coverage 
-                                    of all functional and edge-case requirements through structured planning and systematic execution.
+                                    Designed and implemented an automated labor law-compliant system for Chick-fil-A outlet operations,
+                                    dramatically reducing manual overtime reporting bottlenecks and approval delays.
+                                    The project addressed critical operational inefficiencies affecting 100+ employees across multiple outlets.
                                 </p>
                             </div>
                         </section>
@@ -117,10 +117,10 @@ export default function ChickFilAPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Key Achievements & Impact</h2>
                             <div className="space-y-4">
                                 {[
-                                    'Designed end-to-end workflow reducing manual effort from 50 hours to 10 minutes per outlet',
-                                    'Created structured project plan covering all functional and edge-case requirements',
-                                    'Implemented automation that scaled across multiple outlets with zero post-deployment issues',
-                                    'Documented comprehensive SOPs and training materials for seamless knowledge transfer',
+                                    'Identified manual overtime reporting bottleneck (50 hrs/month); built automated labor law-compliant system, reducing effort to <10 minutes per outlet',
+                                    'Recognized approval delays for 100+ employees; developed rule-based flagging system, cutting turnaround by 95%',
+                                    'Designed end-to-end workflow covering all functional requirements and edge cases',
+                                    'Implemented automation that scaled across multiple outlets with zero compliance issues',
                                 ].map((achievement, i) => (
                                     <motion.div
                                         key={i}
@@ -140,7 +140,7 @@ export default function ChickFilAPage() {
                         <section>
                             <h2 className="text-2xl font-bold mb-6 text-white">Technologies & Skills</h2>
                             <div className="flex flex-wrap gap-3">
-                                {['Automation', 'Workflow Design', 'Process Optimization', 'Project Planning', 'Documentation', 'SOP Development'].map((tag, i) => (
+                                {['Automation', 'Workflow Design', 'Process Optimization', 'Labor Compliance', 'Rule-Based Systems', 'Project Planning', 'System Design'].map((tag, i) => (
                                     <span
                                         key={i}
                                         className="px-4 py-2 bg-zinc-800 border border-zinc-700 text-gray-300 rounded-lg hover:border-purple-500/50 transition-colors"

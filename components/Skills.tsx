@@ -8,48 +8,32 @@ export default function Skills() {
       title: 'AI & LLM Systems',
       skills: [
         'LLM Fundamentals',
+        'Graph-based Workflows',
         'Agentic Systems',
         'Multi-Agent Orchestration',
-        'RAG Pipelines',
+        'Human-in-the-Loop Workflows',
         'Prompt Engineering',
-        'Graph-based Workflows',
-        'Human-in-the-Loop',
+        'Agent and Task Decomposition',
       ],
     },
     {
-      title: 'Product & Architecture',
+      title: 'Data, Tools & Frameworks',
       skills: [
-        'AI Product Design',
-        'Node-based Workflows',
-        'API Design',
-        'System Data Flows',
-        'Template-driven UI',
-        'PRD Creation',
-        'User Research',
-      ],
-    },
-    {
-      title: 'Tools & Frameworks',
-      skills: [
+        'SQL',
+        'MySQL',
+        'Power BI',
         'Jira',
         'Figma',
         'Notion',
         'Linear',
-        'Power BI',
-        'Claude Code',
-        'Cursor',
-        'Google Colab',
-      ],
-    },
-    {
-      title: 'Data & Technical',
-      skills: [
-        'SQL',
-        'MySQL',
-        'Python',
         'Pandas',
         'NumPy',
         'Scikit-learn',
+        'Google Colab',
+        'Bolt.new',
+        'Lovable',
+        'Claude Code',
+        'Cursor',
         'Agile',
         'Scrum',
       ],
@@ -74,7 +58,7 @@ export default function Skills() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
           {skillCategories.map((category, index) => (
             <motion.div
               key={index}

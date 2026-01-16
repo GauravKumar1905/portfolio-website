@@ -9,49 +9,35 @@ const experiences = [
     company: 'KiwiQ AI',
     role: 'Founder\'s Office (AI Product & Platform)',
     period: 'Jan 2025 – Present',
-    description: 'Leading product design of LLM-powered content intelligence platform. Defining static, graph-based, and agentic workflows with RAG human-in-the-loop controls.',
+    description: 'Led product design and execution of an LLM-powered content intelligence platform, delivering 6 core user journeys. Reduced content time-to-publish by 75% through continuous workflow optimization informed by 350+ user feedback points.',
     slug: 'kiwiq'
+  },
+  {
+    company: 'Chick-fil-A (US-based QSR Chain)',
+    role: 'Automation Project',
+    period: '2025',
+    description: 'Identified manual overtime reporting bottleneck (50 hrs/month); built automated labor law–compliant system, reducing effort to <10 minutes per outlet. Recognized approval delays for 100+ employees; developed rule-based flagging system, cutting turnaround by 95%.',
+    slug: 'chick-fil-a'
   },
   {
     company: 'Pixel Ads',
     role: 'Founder (AI-driven Outdoor Advertising)',
     period: 'May 2024 – Dec 2024',
-    description: 'Defined backend and frontend architecture for hyper-personalized advertising platform. Designed microcontroller-based taxi-top display prototype.',
+    description: 'Identified critical product gap in ad placement workflows, driving strategy toward automated customer-to-location mapping. Led cross-functional architecture decisions for hyper-personalized outdoor advertising, aligning engineering with product.',
     slug: 'pixel-ads'
-  },
-  {
-    company: 'Chick-fil-A',
-    role: 'Automation Project',
-    period: '2024',
-    description: 'Designed end-to-end workflow reducing manual effort from 50 hours to 10 minutes per outlet. Created structured project plan covering all functional requirements.',
-    slug: 'chick-fil-a'
   },
   {
     company: 'Nation with Namo',
     role: 'Associate Consultant',
     period: 'Jul 2023 – May 2024',
-    description: 'Conducted ground visits contributing to winning strategy securing 4 of 5 seats. Implemented action plans impacting 12+ lakh people.',
+    description: 'Conducted 4 ground visits to assess public sentiment, contributing to winning election strategy securing 4 of 5 seats. Implemented action plans impacting 12+ lakh people, driving swing from trailing to leading in contested constituency.',
     slug: 'nation-with-namo'
-  },
-  {
-    company: 'SIMAI Management Consulting',
-    role: 'Business Analyst Intern',
-    period: 'May 2022 – Jul 2022',
-    description: 'Applied text mining, feature engineering, and TF-IDF on financial datasets (75k+ records), improving revenue by 20% and profit by 12%.',
-    slug: 'simai'
-  },
-  {
-    company: 'Gaana, Times Group',
-    role: 'Product Management Intern',
-    period: 'May 2021 – Jul 2021',
-    description: 'Analyzed user journeys across 5M+ DAUs, improving TTFP from 12s to 9s. Increased play-within-30s metric from 72% to 80%.',
-    slug: 'gaana'
   },
   {
     company: 'UiT – The Arctic University of Norway',
     role: 'Research Intern',
     period: 'Oct 2020 – Jan 2021',
-    description: 'Built and optimized machine learning models to analyze biological samples. Worked with GAN-based architectures to improve model performance.',
+    description: 'Built and optimized ML models to analyze biological imaging samples and detect irregularities across experimental datasets. Optimized GAN model for analysis of the microscopic images to get a better view when compared to the real image.',
     slug: 'uit-norway'
   }
 ];

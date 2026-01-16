@@ -23,12 +23,12 @@ export default function Hero() {
             className="order-2 md:order-1"
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Building intelligent systems that transform research into production.
+              Building and scaling LLM-powered platforms from 0→1
             </h1>
 
             <p className="text-lg text-gray-400 mb-8 leading-relaxed">
-              Specialized in Machine Learning, Deep Learning, and Generative AI.
-              Architecting scalable AI solutions with PyTorch, TensorFlow, and cloud infrastructure.
+              AI Product Manager skilled in designing agentic workflows, multi-agent orchestration, and human-in-the-loop systems.
+              Deep expertise in prompt engineering, RAG pipelines, and backend-driven UI architecture.
             </p>
 
             {/* CTA Buttons */}
@@ -94,22 +94,22 @@ export default function Hero() {
                   <div className="flex items-center gap-2 mb-1">
                     <h3 className="text-white font-semibold">AI Product Manager</h3>
                   </div>
-                  <p className="text-gray-400 text-sm mb-2">Motivated AI Product Manager with a strong background in developing intelligent systems.</p>
+                  <p className="text-gray-400 text-sm mb-2">IIT Kharagpur graduate with proven track record of building LLM-powered platforms and scaling AI products.</p>
                 </div>
               </div>
 
               <div className="space-y-2 text-sm text-gray-400">
                 <div className="flex items-start gap-2">
                   <span className="text-gray-500">•</span>
-                  <span>Currently at Persistent Systems building AI-powered credit scoring</span>
+                  <span>Currently at KiwiQ AI building content intelligence platform</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-gray-500">•</span>
-                  <span>Previous: Technical Content Writer at GeeksForGeeks</span>
+                  <span>Delivered 75% reduction in time-to-publish and $10K MRR</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-gray-500">•</span>
-                  <span>Certifications: AWS Cloud Practitioner, Oracle Cloud AI Professional</span>
+                  <span>Former Founder of Pixel Ads (AI-driven outdoor advertising)</span>
                 </div>
               </div>
             </div>

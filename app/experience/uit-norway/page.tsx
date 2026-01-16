@@ -3,7 +3,7 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Briefcase, Calendar } from 'lucide-react';
+import { ArrowLeft, Briefcase, Calendar, Download } from 'lucide-react';
 import Link from 'next/link';
 
 export default function UiTNorwayPage() {
@@ -44,9 +44,9 @@ export default function UiTNorwayPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Overview</h2>
                             <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">
                                 <p className="text-gray-400 leading-relaxed">
-                                    Conducted research at UiT – The Arctic University of Norway, focusing on advanced machine 
-                                    learning techniques for biological sample analysis. Explored the application of Generative 
-                                    Adversarial Networks (GANs) to improve irregularity detection in computer vision tasks.
+                                    Conducted machine learning research at UiT – The Arctic University of Norway, focusing on
+                                    computer vision applications for biological imaging analysis. Built and optimized ML models to
+                                    detect irregularities across experimental datasets and enhanced image quality using GAN-based architectures.
                                 </p>
                             </div>
                         </section>
@@ -55,9 +55,9 @@ export default function UiTNorwayPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Key Achievements & Impact</h2>
                             <div className="space-y-4">
                                 {[
-                                    'Built and optimized machine learning models to analyze biological samples and detect irregularities',
-                                    'Worked with GAN-based architectures to improve model performance across experimental benchmarks',
-                                    'Conducted literature review on state-of-the-art computer vision techniques for biomedical applications',
+                                    'Built and optimized ML models to analyze biological imaging samples and detect irregularities across experimental datasets',
+                                    'Optimized GAN model for analysis of the microscopic images to get a better view when compared to the real image',
+                                    'Developed computer vision pipelines for automated irregularity detection',
                                     'Collaborated with international research team on data collection and model validation',
                                 ].map((achievement, i) => (
                                     <motion.div
@@ -76,9 +76,29 @@ export default function UiTNorwayPage() {
                         </section>
 
                         <section>
+                            <h2 className="text-2xl font-bold mb-6 text-white">Internship Offer Letter</h2>
+                            <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">
+                                <div className="flex items-center justify-between">
+                                    <div>
+                                        <p className="text-gray-300 mb-2">Official offer letter from UiT – The Arctic University of Norway</p>
+                                        <p className="text-gray-500 text-sm">PDF Document • 57KB</p>
+                                    </div>
+                                    <a
+                                        href="/documents/experience/uit-offer-letter.pdf"
+                                        download="UiT_Norway_Offer_Letter.pdf"
+                                        className="inline-flex items-center gap-2 px-5 py-2.5 bg-purple-600 hover:bg-purple-700 text-white rounded-lg text-sm font-medium transition-all"
+                                    >
+                                        <Download size={16} />
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section>
                             <h2 className="text-2xl font-bold mb-6 text-white">Technologies & Skills</h2>
                             <div className="flex flex-wrap gap-3">
-                                {['Research', 'GANs', 'Computer Vision', 'Deep Learning', 'PyTorch', 'TensorFlow', 'Biomedical Imaging', 'Academic Writing'].map((tag, i) => (
+                                {['Machine Learning', 'GANs', 'Computer Vision', 'Deep Learning', 'Biological Imaging', 'Image Analysis', 'Model Optimization', 'Research'].map((tag, i) => (
                                     <span
                                         key={i}
                                         className="px-4 py-2 bg-zinc-800 border border-zinc-700 text-gray-300 rounded-lg hover:border-purple-500/50 transition-colors"
