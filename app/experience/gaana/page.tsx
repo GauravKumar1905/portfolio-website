@@ -55,10 +55,8 @@ export default function GaanaPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Key Achievements & Impact</h2>
                             <div className="space-y-4">
                                 {[
-                                    'Analyzed user journeys across 5M+ DAUs, improving TTFP (Time To First Play) from 12s to 9s',
-                                    'Increased play-within-30s metric from 72% to 80% through UX optimizations',
-                                    'Conducted A/B testing to validate feature improvements and user experience changes',
-                                    'Collaborated with engineering teams to implement performance enhancements',
+                                    'Quantitatively estimated the real-time user retention for 5 million+ daily active users by writing SQL queries on the dataset',
+                                    'Devised strategies to enhance daily user retention rates by 4.7% for Gaana and Mirchi Radio, using organic and inorganic methods',
                                 ].map((achievement, i) => (
                                     <motion.div
                                         key={i}

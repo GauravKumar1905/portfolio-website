@@ -3,7 +3,7 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
-import { ArrowLeft, BookOpen, Trophy, Users, Award } from 'lucide-react';
+import { ArrowLeft, BookOpen, Users } from 'lucide-react';
 import Link from 'next/link';
 
 export default function EducationPage() {
@@ -45,7 +45,7 @@ export default function EducationPage() {
                                     <BookOpen size={18} /> Focus Areas
                                 </h3>
                                 <div className="flex flex-wrap gap-2">
-                                    {['Machine Learning', 'Deep Learning', 'Computer Vision', 'Data Structures', 'Algorithms', 'Distributed Systems'].map((opt) => (
+                                    {['Team Leadership', 'Event Management', 'Budget Management', 'Strategic Planning', 'Cross-functional Coordination', 'Stakeholder Management'].map((opt) => (
                                         <span key={opt} className="px-3 py-1 bg-zinc-800 text-xs text-gray-300 rounded-full">
                                             {opt}
                                         </span>
@@ -56,27 +56,6 @@ export default function EducationPage() {
 
                         {/* Main Content */}
                         <div className="md:col-span-2 space-y-16">
-
-                            {/* Thesis Section */}
-                            <section>
-                                <div className="flex items-center gap-3 mb-6">
-                                    <div className="p-2 bg-blue-500/10 rounded-lg text-blue-400">
-                                        <Award size={24} />
-                                    </div>
-                                    <h2 className="text-2xl font-bold">Research & Thesis</h2>
-                                </div>
-                                <div className="bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:border-zinc-700 transition-colors">
-                                    <h3 className="text-xl font-semibold mb-3">Bachelor&apos;s Thesis</h3>
-                                    <p className="text-gray-400 leading-relaxed mb-4">
-                                        Focused on advanced computer vision techniques for irregularity detection in biological samples.
-                                        Explored the application of Generative Adversarial Networks (GANs) to augment training data
-                                        and improve classification accuracy in low-data regimes.
-                                    </p>
-                                    <div className="text-sm text-gray-500">
-                                        Advisor: Prof. [Name of Professor]
-                                    </div>
-                                </div>
-                            </section>
 
                             {/* Leadership Section */}
                             <section>
@@ -130,28 +109,6 @@ export default function EducationPage() {
                                             <li>Organized 16+ events with participation from 22 IITs</li>
                                         </ul>
                                     </div>
-                                </div>
-                            </section>
-
-                            {/* Achievements Section */}
-                            <section>
-                                <div className="flex items-center gap-3 mb-6">
-                                    <div className="p-2 bg-yellow-500/10 rounded-lg text-yellow-400">
-                                        <Trophy size={24} />
-                                    </div>
-                                    <h2 className="text-2xl font-bold">Awards & Competitions</h2>
-                                </div>
-                                <div className="grid gap-4">
-                                    {[
-                                        "Secured Gold Medal in Inter-Hall Technology General Championship",
-                                        "Finalist in [Competition Name] for AI-driven Product Innovation",
-                                        "Published research paper in [Journal/Conference] (if applicable)"
-                                    ].map((award, i) => (
-                                        <div key={i} className="bg-zinc-900/50 border border-zinc-800 p-4 rounded-lg flex items-center gap-3">
-                                            <div className="w-2 h-2 bg-yellow-400 rounded-full" />
-                                            <span className="text-gray-300">{award}</span>
-                                        </div>
-                                    ))}
                                 </div>
                             </section>
 

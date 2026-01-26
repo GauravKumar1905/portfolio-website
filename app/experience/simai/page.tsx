@@ -55,10 +55,9 @@ export default function SimaiPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Key Achievements & Impact</h2>
                             <div className="space-y-4">
                                 {[
-                                    'Applied text mining, feature engineering, and TF-IDF on financial and customer datasets (75k+ records), improving revenue by 20% and profit by 12%',
-                                    'Developed predictive models to identify high-value customer segments',
-                                    'Created automated reporting dashboards for executive decision-making',
-                                    'Optimized data processing pipelines reducing analysis time by 40%',
+                                    'Analyzed quarterly financial reports for 30+ companies using text mining, feature engineering, and TF-IDF to extract key insights',
+                                    'Conducted analysis across 3 sectors - construction, defense, and transport to identify issues to support client decision-making',
+                                    'Examined 75k+ customer data points, recommending discount pricing strategies that boosted revenue by 20% and profit by 12%',
                                 ].map((achievement, i) => (
                                     <motion.div
                                         key={i}

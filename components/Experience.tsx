@@ -39,6 +39,20 @@ const experiences = [
     period: 'Oct 2020 – Jan 2021',
     description: 'Built and optimized ML models to analyze biological imaging samples and detect irregularities across experimental datasets. Optimized GAN model for analysis of the microscopic images to get a better view when compared to the real image.',
     slug: 'uit-norway'
+  },
+  {
+    company: 'SIMAI Management Consulting',
+    role: 'Business Analyst Intern',
+    period: 'May 2022 – Jul 2022',
+    description: 'Analyzed quarterly financial reports for 30+ companies using text mining, feature engineering, and TF-IDF to extract key insights. Examined 75k+ customer data points, recommending discount pricing strategies that boosted revenue by 20% and profit by 12%.',
+    slug: 'simai'
+  },
+  {
+    company: 'Gaana, Times Group',
+    role: 'Product Management Intern',
+    period: 'May 2021 – Jul 2021',
+    description: 'Quantitatively estimated the real-time user retention for 5 million+ daily active users by writing SQL queries on the dataset. Devised strategies to enhance daily user retention rates by 4.7% for Gaana and Mirchi Radio.',
+    slug: 'gaana'
   }
 ];
 
