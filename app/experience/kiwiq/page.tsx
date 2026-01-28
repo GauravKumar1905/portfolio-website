@@ -44,9 +44,9 @@ export default function KiwiQPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Overview</h2>
                             <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">
                                 <p className="text-gray-400 leading-relaxed">
-                                    Leading product design and execution of an LLM-powered content intelligence platform at KiwiQ AI.
-                                    Designing step-based workflows with HITL checkpoints and multi-agent workflows where LLMs decompose tasks.
-                                    Collaborating directly with engineering on backend-driven UI architecture and API infrastructure.
+                                    Leading product design and end-to-end execution of an LLM-powered content intelligence platform at KiwiQ AI,
+                                    owning PM operations across teams including backlog ownership, weekly prioritisation, rapid prototyping, and continuous release cycles.
+                                    Scaled V1 product to $10K MRR (30 customer teams), transitioning from static step-based workflows to dynamic multi-agent systems with HITL checkpoints.
                                 </p>
                             </div>
                         </section>
@@ -55,12 +55,13 @@ export default function KiwiQPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Key Achievements & Impact</h2>
                             <div className="space-y-4">
                                 {[
-                                    'Led product design and execution of an LLM-powered content intelligence platform, delivering 6 core user journeys',
-                                    'Reduced content time-to-publish by 75% through continuous workflow optimization informed by 350+ user feedback points',
-                                    'Designed step-based workflows with HITL checkpoints and multi-agent workflows where LLMs decompose tasks',
-                                    'Defined technical requirements for 359 API endpoints and WebSocket infrastructure, enabling multi-threaded conversations',
-                                    'Collaborated with frontend engineers on backend-driven UI architecture, rendering AI outputs across 12+ content patterns',
-                                    'Designed a strategic division of labor between agents and modular agent skills, leveraging task decomposition frameworks and prompt engineering best practices for improved reliability and consistency',
+                                    'Led product design and end-to-end execution of an LLM-powered content intelligence platform, owning PM operations across teams including backlog ownership, weekly prioritisation, rapid prototyping, and continuous release cycles',
+                                    'Scaled V1 product to $10K MRR (30 customer teams), defining content quality and workflow success rates as north-star metrics',
+                                    'Transitioned platform from static step-based workflows (V1) to dynamic multi-agent systems (V2) with HITL checkpoints, improving adaptability and output quality',
+                                    'Designed agentic workflows where LLMs decompose tasks and agents execute modular skills; reduced content time-to-publish by 75% using 350+ user feedback inputs',
+                                    'Defined technical product requirements across API-first architecture (300+ endpoints) and WebSocket infrastructure, enabling multi-threaded AI conversations',
+                                    'Partnered with frontend engineers on backend-driven UI systems rendering AI outputs across 12+ content patterns',
+                                    'Drove roadmap trade-offs, including deprioritising content repurposing journey due to missing external data/SEO integrations, reallocating effort to higher-ROI workflows',
                                 ].map((achievement, i) => (
                                     <motion.div
                                         key={i}

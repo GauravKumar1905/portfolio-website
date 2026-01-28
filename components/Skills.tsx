@@ -5,37 +5,48 @@ import { motion } from 'framer-motion';
 export default function Skills() {
   const skillCategories = [
     {
-      title: 'AI & LLM Systems',
+      title: 'AI Product Systems',
       skills: [
         'LLM Fundamentals',
-        'Graph-based Workflows',
-        'Agentic Systems',
-        'Multi-Agent Orchestration',
-        'Human-in-the-Loop Workflows',
-        'Prompt Engineering',
-        'Agent and Task Decomposition',
+        'Multi-Agent Systems',
+        'Agentic Workflows',
+        'Human-in-the-Loop Design',
+        'Workflow Orchestration',
+        'AI Evaluation Thinking',
       ],
     },
     {
-      title: 'Data, Tools & Frameworks',
+      title: 'Product Management',
+      skills: [
+        'User Discovery',
+        'PRDs',
+        'MVP Scoping',
+        'Prioritisation',
+        'Product Strategy',
+        'Experimentation',
+        'Stakeholder Collaboration',
+        'Agile Delivery',
+      ],
+    },
+    {
+      title: 'Data & Tools',
       skills: [
         'SQL',
         'MySQL',
         'Power BI',
-        'Jira',
+        'Excel',
         'Figma',
+        'Jira',
         'Notion',
         'Linear',
         'Pandas',
         'NumPy',
         'Scikit-learn',
         'Google Colab',
-        'Bolt.new',
-        'Lovable',
         'Claude Code',
+        'Lovable',
         'Cursor',
-        'Agile',
-        'Scrum',
+        'Bolt.new',
       ],
     },
   ];
@@ -58,7 +69,7 @@ export default function Skills() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
             <motion.div
               key={index}

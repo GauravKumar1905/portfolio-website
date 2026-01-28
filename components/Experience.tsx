@@ -7,30 +7,30 @@ import { ArrowUpRight } from 'lucide-react';
 const experiences = [
   {
     company: 'KiwiQ AI',
-    role: 'Founder\'s Office (AI Product & Platform)',
+    role: 'Founder\'s Office — Product (AI Platform)',
     period: 'Jan 2025 – Present',
-    description: 'Led product design and execution of an LLM-powered content intelligence platform, delivering 6 core user journeys. Reduced content time-to-publish by 75% through continuous workflow optimization informed by 350+ user feedback points.',
+    description: 'Led product design and end-to-end execution of an LLM-powered content intelligence platform, owning PM operations across teams. Scaled V1 product to $10K MRR (30 customer teams), reducing content time-to-publish by 75% using 350+ user feedback inputs.',
     slug: 'kiwiq'
   },
   {
     company: 'Chick-fil-A (US-based QSR Chain)',
     role: 'Automation Project',
     period: '2025',
-    description: 'Identified manual overtime reporting bottleneck (50 hrs/month); built automated labor law–compliant system, reducing effort to <10 minutes per outlet. Recognized approval delays for 100+ employees; developed rule-based flagging system, cutting turnaround by 95%.',
+    description: 'Automated overtime and compliance reporting for 100+ employees, cutting effort from 50 hours/month to <10 minutes per outlet and reducing approval turnaround by 95%. Owned end-to-end delivery from problem discovery to deployment.',
     slug: 'chick-fil-a'
   },
   {
     company: 'Pixel Ads',
-    role: 'Founder (AI-driven Outdoor Advertising)',
+    role: 'Founder — AI-driven Outdoor Advertising',
     period: 'May 2024 – Dec 2024',
-    description: 'Identified critical product gap in ad placement workflows, driving strategy toward automated customer-to-location mapping. Led cross-functional architecture decisions for hyper-personalized outdoor advertising, aligning engineering with product.',
+    description: 'Conducted discovery with 30 advertisers and 10 agencies to define ICP, core pain points, and MVP scope. Redesigned system using modular hardware, reducing costs by 20% and enabling large-scale data collection and AI-driven analysis.',
     slug: 'pixel-ads'
   },
   {
-    company: 'Nation with Namo',
+    company: 'Nation with NaMo',
     role: 'Associate Consultant',
     period: 'Jul 2023 – May 2024',
-    description: 'Conducted 4 ground visits to assess public sentiment, contributing to winning election strategy securing 4 of 5 seats. Implemented action plans impacting 12+ lakh people, driving swing from trailing to leading in contested constituency.',
+    description: 'Led constituency-level analysis through ground research, surveys, and dashboards. Handled 26 constituencies across 3 states; contributed to winning 19, including completely turning around four seats. Impacted programs reaching 12+ lakh people.',
     slug: 'nation-with-namo'
   },
   {

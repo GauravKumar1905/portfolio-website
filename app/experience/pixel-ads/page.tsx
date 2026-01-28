@@ -105,9 +105,8 @@ export default function PixelAdsPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Overview</h2>
                             <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">
                                 <p className="text-gray-400 leading-relaxed">
-                                    Founded and led Pixel Ads, an AI-driven outdoor advertising platform focused on hyper-personalized
-                                    advertising for taxi-top displays. Identified critical product gaps and led cross-functional architecture
-                                    decisions while designing hardware prototypes and conducting extensive market research.
+                                    Founded Pixel Ads, an AI-driven outdoor advertising platform. Conducted discovery with 30 advertisers and 10 agencies to define ICP, core pain points, and MVP scope.
+                                    Authored backend PRDs and prioritised roadmap to capture street-level imagery and extract geographic and audience attributes for targeting intelligence.
                                 </p>
                             </div>
                         </section>
@@ -116,10 +115,10 @@ export default function PixelAdsPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Key Achievements & Impact</h2>
                             <div className="space-y-4">
                                 {[
-                                    'Identified critical product gap in ad placement workflows, driving strategy toward automated customer-to-location mapping',
-                                    'Led cross-functional architecture decisions for hyper-personalized outdoor advertising, aligning engineering with product',
-                                    'Designed hardware prototype for targeted taxi-top advertising, reducing costs by 30% while improving ad precision',
-                                    'Conducted market research to identify pricing models and feature gaps, shaping GTM strategy with 20% CTC advantage',
+                                    'Conducted discovery with 30 advertisers and 10 agencies to define ICP, core pain points, and MVP scope',
+                                    'Identified restricted in-market hardware as the core bottleneck to data availability; redesigned the system using modular hardware, reducing costs by 20% and enabling large-scale data collection and AI-driven analysis',
+                                    'Authored backend PRDs and prioritised roadmap to capture street-level imagery and extract geographic and audience attributes for targeting intelligence, executing live pilots across 2 vehicles over 7 days',
+                                    'Led regulatory and scalability assessment across cities; made the decision to shut down the venture due to fragmented policy risk despite technical validation',
                                 ].map((achievement, i) => (
                                     <motion.div
                                         key={i}
@@ -139,7 +138,7 @@ export default function PixelAdsPage() {
                         <section>
                             <h2 className="text-2xl font-bold mb-6 text-white">Technologies & Skills</h2>
                             <div className="flex flex-wrap gap-3">
-                                {['Product Architecture', 'IoT', 'Hardware Design', 'Market Research', 'GTM Strategy', 'Cross-Functional Leadership', 'Business Development', 'Strategic Planning'].map((tag, i) => (
+                                {['User Discovery', 'ICP Definition', 'Backend PRDs', 'Roadmap Prioritisation', 'Hardware Design', 'AI-driven Analysis', 'Regulatory Assessment', 'Pilot Execution', 'Strategic Decision Making'].map((tag, i) => (
                                     <span
                                         key={i}
                                         className="px-4 py-2 bg-zinc-800 border border-zinc-700 text-gray-300 rounded-lg hover:border-purple-500/50 transition-colors"

@@ -20,12 +20,10 @@ export default function About() {
           </h2>
           <div className="max-w-3xl">
             <p className="text-lg text-gray-400 mb-6 leading-relaxed">
-              AI Product Manager with hands-on experience building and scaling LLM-powered platforms from 0→1.
-              Skilled in designing agentic workflows, multi-agent orchestration, and human-in-the-loop systems in close collaboration with engineering.
+              AI Product Manager with 0→1 experience building and scaling AI-first products. Currently owning core workflow systems at a B2B AI startup serving Series A/B SaaS teams. Strong background in user discovery, PRDs, MVP scoping, and cross-functional execution across engineering and customer success.
             </p>
             <p className="text-lg text-gray-400 leading-relaxed">
-              Proven ability to translate complex AI capabilities into scalable product experiences, driving 75% reduction in time-to-publish and $10K MRR.
-              Deep expertise in prompt engineering, RAG pipelines, and backend-driven UI architecture.
+              Proven record of shipping LLM-powered products driving 75% reduction in content creation time and scaling to $10K MRR. Founder experience building and validating AI-driven platforms across backend systems, automation, and applied ML.
             </p>
           </div>
         </motion.div>

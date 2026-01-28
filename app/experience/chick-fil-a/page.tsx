@@ -106,9 +106,8 @@ export default function ChickFilAPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Overview</h2>
                             <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">
                                 <p className="text-gray-400 leading-relaxed">
-                                    Designed and implemented an automated labor law-compliant system for Chick-fil-A outlet operations,
-                                    dramatically reducing manual overtime reporting bottlenecks and approval delays.
-                                    The project addressed critical operational inefficiencies affecting 100+ employees across multiple outlets.
+                                    Automated overtime and compliance reporting for 100+ employees at Chick-fil-A outlets.
+                                    Owned end-to-end delivery from problem discovery and requirements to system design, automation logic, deployment, and stakeholder validation.
                                 </p>
                             </div>
                         </section>
@@ -117,10 +116,8 @@ export default function ChickFilAPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Key Achievements & Impact</h2>
                             <div className="space-y-4">
                                 {[
-                                    'Identified manual overtime reporting bottleneck (50 hrs/month); built automated labor law-compliant system, reducing effort to <10 minutes per outlet',
-                                    'Recognized approval delays for 100+ employees; developed rule-based flagging system, cutting turnaround by 95%',
-                                    'Designed end-to-end workflow covering all functional requirements and edge cases',
-                                    'Implemented automation that scaled across multiple outlets with zero compliance issues',
+                                    'Automated overtime and compliance reporting for 100+ employees, cutting effort from 50 hours/month to <10 minutes per outlet and reducing approval turnaround by 95%',
+                                    'Owned end-to-end delivery from problem discovery and requirements to system design, automation logic, deployment, and stakeholder validation',
                                 ].map((achievement, i) => (
                                     <motion.div
                                         key={i}
@@ -140,7 +137,7 @@ export default function ChickFilAPage() {
                         <section>
                             <h2 className="text-2xl font-bold mb-6 text-white">Technologies & Skills</h2>
                             <div className="flex flex-wrap gap-3">
-                                {['Automation', 'Workflow Design', 'Process Optimization', 'Labor Compliance', 'Rule-Based Systems', 'Project Planning', 'System Design'].map((tag, i) => (
+                                {['Automation', 'Problem Discovery', 'Requirements', 'System Design', 'Automation Logic', 'Deployment', 'Stakeholder Validation', 'Compliance Reporting'].map((tag, i) => (
                                     <span
                                         key={i}
                                         className="px-4 py-2 bg-zinc-800 border border-zinc-700 text-gray-300 rounded-lg hover:border-purple-500/50 transition-colors"

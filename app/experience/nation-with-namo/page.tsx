@@ -44,9 +44,9 @@ export default function NationWithNamoPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Overview</h2>
                             <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6">
                                 <p className="text-gray-400 leading-relaxed">
-                                    Served as Associate Consultant for strategic political campaigns, conducting ground-level
-                                    assessments, implementing large-scale action plans, and resolving real-time operational issues.
-                                    Contributed to successful electoral outcomes through systematic planning and execution.
+                                    Led constituency-level analysis through ground research, surveys, and dashboards to understand user (citizen) pain points and influence patterns.
+                                    Segmented populations, prioritised local issues, and designed action plans covering positioning, messaging, and execution.
+                                    Drove data-backed decision making in high-stakes environments, impacting programs reaching 12+ lakh people.
                                 </p>
                             </div>
                         </section>
@@ -55,9 +55,10 @@ export default function NationWithNamoPage() {
                             <h2 className="text-2xl font-bold mb-6 text-white">Key Achievements & Impact</h2>
                             <div className="space-y-4">
                                 {[
-                                    'Conducted 4 ground visits to assess public sentiment, contributing to winning election strategy securing 4 of 5 seats',
-                                    'Implemented action plans impacting 12+ lakh people, driving swing from trailing to leading in contested constituency',
-                                    'Resolved machine malfunctions at 250+ key booths through real-time issue tracking and cross-team coordination',
+                                    'Led constituency-level analysis through ground research, surveys, and dashboards to understand user (citizen) pain points and influence patterns',
+                                    'Segmented populations, prioritised local issues, and designed action plans covering positioning, messaging, and execution',
+                                    'Handled 26 constituencies across 3 states; contributed to winning 19, including completely turning around four seats',
+                                    'Drove data-backed decision making in high-stakes environments, impacting programs reaching 12+ lakh people',
                                 ].map((achievement, i) => (
                                     <motion.div
                                         key={i}
@@ -77,7 +78,7 @@ export default function NationWithNamoPage() {
                         <section>
                             <h2 className="text-2xl font-bold mb-6 text-white">Technologies & Skills</h2>
                             <div className="flex flex-wrap gap-3">
-                                {['Strategy Development', 'Operations Management', 'Ground Research', 'Campaign Execution', 'Real-time Coordination', 'Cross-Team Collaboration', 'Issue Resolution'].map((tag, i) => (
+                                {['Ground Research', 'Surveys', 'Dashboards', 'Population Segmentation', 'Action Planning', 'Positioning', 'Messaging', 'Data-backed Decision Making', 'Stakeholder Management'].map((tag, i) => (
                                     <span
                                         key={i}
                                         className="px-4 py-2 bg-zinc-800 border border-zinc-700 text-gray-300 rounded-lg hover:border-purple-500/50 transition-colors"

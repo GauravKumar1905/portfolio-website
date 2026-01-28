@@ -27,8 +27,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg text-gray-400 mb-8 leading-relaxed">
-              AI Product Manager skilled in designing agentic workflows, multi-agent orchestration, and human-in-the-loop systems.
-              Deep expertise in prompt engineering, RAG pipelines, and backend-driven UI architecture.
+              AI Product Manager with 0→1 experience building and scaling AI-first products. Currently owning core workflow systems at a B2B AI startup serving Series A/B SaaS teams. Strong background in user discovery, PRDs, MVP scoping, and cross-functional execution.
             </p>
 
             {/* CTA Buttons */}
@@ -94,22 +93,22 @@ export default function Hero() {
                   <div className="flex items-center gap-2 mb-1">
                     <h3 className="text-white font-semibold">AI Product Manager</h3>
                   </div>
-                  <p className="text-gray-400 text-sm mb-2">IIT Kharagpur graduate with proven track record of building LLM-powered platforms and scaling AI products.</p>
+                  <p className="text-gray-400 text-sm mb-2">IIT Kharagpur graduate with proven record of shipping LLM-powered products driving 75% reduction in content creation time and scaling to $10K MRR.</p>
                 </div>
               </div>
 
               <div className="space-y-2 text-sm text-gray-400">
                 <div className="flex items-start gap-2">
                   <span className="text-gray-500">•</span>
-                  <span>Currently at KiwiQ AI building content intelligence platform</span>
+                  <span>Currently at KiwiQ AI - Scaled to $10K MRR (30 customer teams)</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-gray-500">•</span>
-                  <span>Delivered 75% reduction in time-to-publish and $10K MRR</span>
+                  <span>75% reduction in content time-to-publish using 350+ user feedback inputs</span>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-gray-500">•</span>
-                  <span>Former Founder of Pixel Ads (AI-driven outdoor advertising)</span>
+                  <span>Founder experience building AI-driven platforms across backend systems, automation, and applied ML</span>
                 </div>
               </div>
             </div>

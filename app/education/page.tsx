@@ -70,13 +70,13 @@ export default function EducationPage() {
                                     <div className="group">
                                         <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-purple-400 transition-colors">
                                             <a href="https://gymkhana.iitkgp.ac.in/" target="_blank" rel="noopener noreferrer">
-                                                General Secretary, Technology Students&apos; Gymkhana
+                                                General Secretary, Technology | IIT Kharagpur
                                             </a>
                                         </h3>
                                         <p className="text-gray-400 mb-2">Elected Student Representative</p>
                                         <ul className="list-disc list-outside ml-4 text-gray-400 space-y-2">
-                                            <li>Led institute-wide technology initiatives, coordinated 6 societies and championship events</li>
-                                            <li>Managed a budget of <strong>INR 19.1M</strong> for technological activities and student welfare</li>
+                                            <li>Organized 50+ events engaging 3,000+ students and launched 3 new technology-focused initiatives</li>
+                                            <li>Managed <strong>INR 19.1M</strong> budget across 6 societies</li>
                                         </ul>
                                     </div>
 
@@ -85,13 +85,13 @@ export default function EducationPage() {
                                     <div className="group">
                                         <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-purple-400 transition-colors">
                                             <a href="https://www.ktj.in/" target="_blank" rel="noopener noreferrer">
-                                                Executive Head, Kshitij
+                                                Executive Head | Kshitij – Asia&apos;s Largest Techno-Management Fest
                                             </a>
                                         </h3>
-                                        <p className="text-gray-400 mb-2">Asia&apos;s Largest Techno Management Fest</p>
+                                        <p className="text-gray-400 mb-2">Asia&apos;s Largest Techno-Management Fest</p>
                                         <ul className="list-disc list-outside ml-4 text-gray-400 space-y-2">
-                                            <li>Headed a 70+ member team, executed 50 technology events</li>
-                                            <li>Managed a fest budget of <strong>INR 11.2M</strong></li>
+                                            <li>Led 70+ events with a 4-tier, 600+ member team</li>
+                                            <li>Planned <strong>INR 11.2M</strong> budget and headed sponsorship execution</li>
                                         </ul>
                                     </div>
 
@@ -100,13 +100,13 @@ export default function EducationPage() {
                                     <div className="group">
                                         <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-purple-400 transition-colors">
                                             <a href="https://www.interiit-tech.com/" target="_blank" rel="noopener noreferrer">
-                                                Overall Coordinator, Inter IIT Tech Meet
+                                                Overall Coordinator | Inter IIT Tech Meet 10.0
                                             </a>
                                         </h3>
                                         <p className="text-gray-400 mb-2">Pan-IIT Technical Competition</p>
                                         <ul className="list-disc list-outside ml-4 text-gray-400 space-y-2">
-                                            <li>Initiated and hosted the Inter-IIT Tech Meet at IIT Kharagpur</li>
-                                            <li>Organized 16+ events with participation from 22 IITs</li>
+                                            <li>Organised the annual Inter IIT Tech Meet at IIT Kharagpur with 16 events</li>
+                                            <li>Led a 30-member team and chaired coordination with representatives from 22 IITs</li>
                                         </ul>
                                     </div>
                                 </div>
